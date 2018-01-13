@@ -1,0 +1,23 @@
+{
+  "name": "script-compiler",
+  "version": "1.0.0",
+  "description": "Project for script compiling",
+  "scripts": {
+    "script1": "webpack --env.project=script1",
+    "script2": "webpack --env.project=script2",
+    "linter": "eslint test.js"
+  },
+  "author": "Antti Manninen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-es2015": "6.24.1",
+    "eslint": "4.15.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0",
+    "uglifyjs-webpack-plugin": "1.1.6",
+    "webpack": "3.10.0"
+  }
+}

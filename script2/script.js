@@ -1,0 +1,7 @@
+const arrowFunction = (value) => {
+  const changedValue = value + 1;
+  return changedValue;
+};
+
+const constVariable = 456;
+console.log(arrowFunction(constVariable)); // eslint-disable-line no-console
