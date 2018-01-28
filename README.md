@@ -4,7 +4,7 @@ Simple Webpack driven project that enables ES6 features when creating many separ
 
 ## How to use
 
-Create new folder for each script. Add your logic in that folder. Use file name `script.js`.
+Create new folder for each script inside `scripts` folder. Add your logic in that folder. Use file name `script.js`.
 
 Add new entry to `package.json`'s `scripts` section with folder name in project environmental variable. You can also name the npm script with the same name.
 

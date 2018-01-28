@@ -4,7 +4,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 function createConfig(projectName) {
   return {
-    entry: `./${projectName}/script.js`,
+    entry: `./scripts/${projectName}/script.js`,
     output: {
       path: path.resolve(__dirname, 'build'),
       filename: `${projectName}.js`,

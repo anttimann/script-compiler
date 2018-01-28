@@ -5,7 +5,7 @@
   "scripts": {
     "script1": "webpack --env.project=script1",
     "script2": "webpack --env.project=script2",
-    "linter": "eslint test.js"
+    "linter": "eslint scripts"
   },
   "author": "Antti Manninen",
   "license": "ISC",
