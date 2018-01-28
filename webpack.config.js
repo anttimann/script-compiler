@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 function createConfig(projectName) {
@@ -22,6 +23,9 @@ function createConfig(projectName) {
     plugins: [
       new UglifyJsPlugin({
         sourceMap: true,
+      }),
+      new webpack.BannerPlugin({
+        banner: `name:[filebase], date:${new Date()}, hash:[hash], chunkhash:[chunkhash]'`,
       }),
     ],
     stats: {
